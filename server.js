@@ -4,7 +4,7 @@ import path from 'path';
 import * as url from 'url';
 const __dirname = url.fileURLToPath(new URL('.', import.meta.url));
 
-const port = 3000;
+const port = process.platform === 'linux' ? 80 : 3000;
 
 // Read csv and json files to serve
 const files = fs.readdirSync(__dirname, { recursive: true })
