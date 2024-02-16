@@ -69,7 +69,8 @@ async function parse({
       try {
         object = Object.fromEntries(values.map((x, i) => [
           keys[i],
-          /date/i.test(keys[i]) ? new Date(x).toISOString().slice(0, 10) : isNaN(x) ? x : +x
+          (/date/i.test(keys[i]) || (fileToReadCsv.includes('County_Population_By_Year') && keys[i] === 'year'))
+            ? new Date(x).toISOString().slice(0, 10) : isNaN(x) ? x : +x
         ]));
         if (values.length !== keys.length) {
           throw new Error('Keys and values not the same length. ('
