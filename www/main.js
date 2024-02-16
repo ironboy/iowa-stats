@@ -20,10 +20,10 @@ async function start() {
     html += `<p><a download href="${file}">${file}</a><span>${niceSize(size)}</span>
        ${lastFolder.includes('samples') ? `<i>sample size: ${sampleSize}%</i>` : ''}</p>
        ${folder[0] === '_' ? `<p class="description"><a href="${url}" target="_blank">
-         Beskrivning av data-setet</a></p>` : ''}`;
+         Beskrivning av datasetet</a></p>` : ''}`;
   }
   html += '</div>';
-  document.body.innerHTML = html;
+  document.querySelector('main').innerHTML += html;
 }
 
 

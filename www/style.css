@@ -2,11 +2,37 @@
 
 body {
   font-family: 'Fredoka';
+  line-height: 140%;
+  font-size: 18px;
+  background-image: url('iowa-bg.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 30px;
+}
+
+main {
+  background-color: #fff;
+  padding: 30px;
+  width: 800px;
+  margin: 0 auto;
+}
+
+a {
+  color: #201395;
+  text-decoration: none;
+}
+
+h4 {
+  margin-bottom: 0;
+}
+
+h4+p {
+  margin-top: 2px;
 }
 
 .file-list a {
   display: inline-block;
-  width: 350px;
+  width: 450px;
 }
 
 .file-list span {
@@ -18,7 +44,7 @@ body {
 .file-list i {
   display: inline-block;
   font-style: normal;
-  width: 140px;
+  width: 200px;
   text-align: right;
 }
 
