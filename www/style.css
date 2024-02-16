@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+body {
+  font-family: 'Fredoka';
+}
+
+.file-list a {
+  display: inline-block;
+  width: 350px;
+}
+
+.file-list span {
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+}
+
+.file-list i {
+  display: inline-block;
+  font-style: normal;
+  width: 140px;
+  text-align: right;
+}
+
+.file-list .description {
+  padding-left: 30px;
+}
+
+h3 {
+  margin-top: 40px;
+}

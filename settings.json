@@ -1,0 +1,49 @@
+{
+  "jobs": [
+    {
+      "url": "https://data.iowa.gov/Sales-Distribution/Iowa-Liquor-Sales/m3tr-qhgy/about_data",
+      "fileToReadCsv": "./_raw-csv-data/Iowa_Liquor_Sales_20240215.csv",
+      "fileToWriteJson": "./json-data/Iowa_Liquor_Sales_20240215.json",
+      "fileToWriteSamplesCsv": "./samples-csv-data/Iowa_Liquor_Sales_sample.csv",
+      "fileToWriteSamplesJson": "./samples-json-data/Iowa_Liquor_Sales_sample.json",
+      "sampleSizePercent": 0.1,
+      "skip": true
+    },
+    {
+      "url": "https://data.iowa.gov/Community-Demographics/Iowa-Population-18-Years-and-Over-by-Sex-Age-and-E/azc3-wf9j/about_data",
+      "fileToReadCsv": "./_raw-csv-data/Iowa_Educational_Attainment_20240215.csv",
+      "fileToWriteJson": "./json-data/Iowa_Educational_Attainment_20240215.json",
+      "fileToWriteSamplesCsv": "./samples-csv-data/Iowa_Educational_Attainment_sample.csv",
+      "fileToWriteSamplesJson": "./samples-json-data/Iowa_Educational_Attainment_sample.json",
+      "sampleSizePercent": 1,
+      "skip": false
+    },
+    {
+      "url": "https://data.iowa.gov/Crashes/Vehicle-Crashes-in-Iowa/tw78-ziwj/about_data",
+      "fileToReadCsv": "./_raw-csv-data/Iowa_Vehicle_Crashes_20240215.csv",
+      "fileToWriteJson": "./json-data/Iowa_Vehicle_Crashes_20240215.json",
+      "fileToWriteSamplesCsv": "./samples-csv-data/Iowa_Vehicle_Crashes_sample.csv",
+      "fileToWriteSamplesJson": "./samples-json-data/Iowa_Vehicle_Crashes_sample.json",
+      "sampleSizePercent": 1,
+      "skip": true
+    },
+    {
+      "url": "https://data.iowa.gov/Economic-Statistics/Annual-Personal-Income-for-State-of-Iowa-by-County/st2k-2ti2/about_data",
+      "fileToReadCsv": "./_raw-csv-data/Income_By_County_20240215.csv",
+      "fileToWriteJson": "./json-data/Income_By_County_20240215.json",
+      "skip": true
+    },
+    {
+      "url": "https://data.iowa.gov/Child-Adult-Welfare/Iowa-Child-Abuse-Occurrences-by-Year-County-and-Ty/mh9d-fias/about_data",
+      "fileToReadCsv": "./_raw-csv-data/Iowa_Child_Abuse_20240215.csv",
+      "fileToWriteJson": "./json-data/Iowa_Child_Abuse_20240215.json",
+      "skip": true
+    },
+    {
+      "url": "https://data.iowa.gov/Economic-Statistics/Iowa-Unemployment-Insurance-Benefit-Payments-and-U/yhbr-3t8a/about_data",
+      "fileToReadCsv": "./_raw-csv-data/Iowa_Unemployment_20240215.csv",
+      "fileToWriteJson": "./json-data/Iowa_Unemployment_20240215.json",
+      "skip": true
+    }
+  ]
+}
